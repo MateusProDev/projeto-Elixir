@@ -1,0 +1,8 @@
+defmodule Calculator do
+  def add(a, b) do
+    a + b
+  end
+end
+
+result = Calculator.add(5, 7)
+IO.puts("O resultado da adição é: #{result}")
